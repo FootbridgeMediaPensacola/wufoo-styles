@@ -39,7 +39,7 @@ form input, form select, form textarea {
 }
 
 .wufoo li.focused{
-	background-color:none!important;
+	background-color:inherit!important;
 }
 
 .form-control::-ms-expand {
