@@ -38,6 +38,11 @@ form input, form select, form textarea {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
 }
 
+form li > label{
+	font-family:sans-serif;
+	font-size:1.6em;
+}
+
 .hide-label span > label{
 	display:none!important;
 }
