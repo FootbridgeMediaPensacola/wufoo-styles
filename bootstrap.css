@@ -47,12 +47,12 @@ form input, form select, form textarea {
     border: 0
 }
 
-.form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: #80bdff;
-    outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25)
+form input:focus, form select:focus, form textarea:focus {
+    color: #495057 !important;
+    background-color: #fff!important;
+    border-color: #80bdff!important;
+    outline: 0!important;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25)!important;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -99,28 +99,6 @@ select.form-control:focus::-ms-value {
     width: 100%
 }
 
-.col-form-label {
-    padding-top: calc(.375rem + 1px);
-    padding-bottom: calc(.375rem + 1px);
-    margin-bottom: 0;
-    font-size: inherit;
-    line-height: 1.5
-}
-
-.col-form-label-lg {
-    padding-top: calc(.5rem + 1px);
-    padding-bottom: calc(.5rem + 1px);
-    font-size: 1.25rem;
-    line-height: 1.5
-}
-
-.col-form-label-sm {
-    padding-top: calc(.25rem + 1px);
-    padding-bottom: calc(.25rem + 1px);
-    font-size: .875rem;
-    line-height: 1.5
-}
-
 .form-control-plaintext {
     display: block;
     width: 100%;
@@ -131,18 +109,6 @@ select.form-control:focus::-ms-value {
     background-color: transparent;
     border: solid transparent;
     border-width: 1px 0
-}
-
-.form-control-plaintext.form-control-lg,.form-control-plaintext.form-control-sm,.input-group-lg>.form-control-plaintext.form-control,.input-group-lg>.input-group-append>.form-control-plaintext.btn,.input-group-lg>.input-group-append>.form-control-plaintext.input-group-text,.input-group-lg>.input-group-prepend>.form-control-plaintext.btn,.input-group-lg>.input-group-prepend>.form-control-plaintext.input-group-text,.input-group-sm>.form-control-plaintext.form-control,.input-group-sm>.input-group-append>.form-control-plaintext.btn,.input-group-sm>.input-group-append>.form-control-plaintext.input-group-text,.input-group-sm>.input-group-prepend>.form-control-plaintext.btn,.input-group-sm>.input-group-prepend>.form-control-plaintext.input-group-text {
-    padding-right: 0;
-    padding-left: 0
-}
-
-.form-control-sm,.input-group-sm>.form-control,.input-group-sm>.input-group-append>.btn,.input-group-sm>.input-group-append>.input-group-text,.input-group-sm>.input-group-prepend>.btn,.input-group-sm>.input-group-prepend>.input-group-text {
-    padding: .25rem .5rem;
-    font-size: .875rem;
-    line-height: 1.5;
-    border-radius: .2rem
 }
 
 .input-group-sm>.input-group-append>select.btn:not([size]):not([multiple]),.input-group-sm>.input-group-append>select.input-group-text:not([size]):not([multiple]),.input-group-sm>.input-group-prepend>select.btn:not([size]):not([multiple]),.input-group-sm>.input-group-prepend>select.input-group-text:not([size]):not([multiple]),.input-group-sm>select.form-control:not([size]):not([multiple]),select.form-control-sm:not([size]):not([multiple]) {
