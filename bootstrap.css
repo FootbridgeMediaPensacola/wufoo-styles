@@ -38,6 +38,10 @@ form input, form select, form textarea {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
 }
 
+.hide-label label{
+	display:none!important;
+}
+
 .wufoo li.focused{
 	background-color:inherit!important;
 }
