@@ -38,6 +38,10 @@ form input, form select, form textarea {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
 }
 
+.wufoo li.focused{
+	background-color:none!important;
+}
+
 .form-control::-ms-expand {
     background-color: transparent;
     border: 0
