@@ -39,8 +39,8 @@ form input, form select, form textarea {
 }
 
 form li > label{
-	font-family:sans-serif;
-	font-size:1.6em;
+	font-family:sans-serif !important;
+	font-size:1.6em !important
 }
 
 .hide-label span > label{
