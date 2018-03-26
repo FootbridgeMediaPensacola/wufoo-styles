@@ -24,7 +24,7 @@ html {
     width: device-width
 }
 
-form input {
+form input, form select, form textarea {
     display: block;
     width: 100%;
     padding: .375rem .75rem !important;
