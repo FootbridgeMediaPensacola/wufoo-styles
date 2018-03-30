@@ -20,6 +20,10 @@ html {
     -webkit-tap-highlight-color: transparent
 }
 
+html.embed{
+	background-color:transparent!important;
+}
+
 @-ms-viewport {
     width: device-width
 }
