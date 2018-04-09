@@ -42,6 +42,14 @@ form input, form select, form textarea {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
 }
 
+.wufoo li.focused div label, .wufoo li.focused span label{
+	color:white!important;
+}
+
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{
+	color:white!important;
+}
+
 form li > label{
 	font-family:sans-serif !important;
 	font-size:1.6em !important;
