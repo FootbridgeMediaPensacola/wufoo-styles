@@ -19,6 +19,10 @@
 	color:#222;
 }
 
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{
+	color:rgb(25,25,25);
+}
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
