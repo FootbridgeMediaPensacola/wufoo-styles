@@ -59,7 +59,7 @@ form li > label{
 	font-size:1em !important
 }
 @media screen and (min-width:1000px) {
-    form li > lable {
+    form li > label {
         font-size:1.6em !important;
     }
 }
