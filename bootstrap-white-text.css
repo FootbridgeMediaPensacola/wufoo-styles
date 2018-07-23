@@ -46,6 +46,11 @@ form input, form select, form textarea {
 	color:white!important;
 }
 
+.wufoo .info div{
+	color:#c0c0c0 !important;
+}
+
+
 .wufoo .info h2{
 	color:white !important;
 }
