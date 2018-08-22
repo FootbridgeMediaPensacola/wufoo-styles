@@ -56,7 +56,7 @@ form input, form select, form textarea {
 
 form li > label{
 	font-family:sans-serif !important;
-	font-size:1.6em !important
+	font-size:1em !important
 }
 @media screen and (max-width:440px) {
     form li > label {
