@@ -43,7 +43,7 @@ html.embed{
 form input, form select, form textarea {
     display: block;
     width: 100%;
-    padding: .375rem .75rem !important;
+    padding: .15rem .05rem !important;
     font-size: 1rem !important;
     line-height: 1.5 !important;
     color: #495057 !important;
