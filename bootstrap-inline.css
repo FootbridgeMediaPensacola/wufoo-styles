@@ -401,7 +401,7 @@ select.form-control:focus::-ms-value {
 	
 }
 form li.rightThird { float:left; }
-.wufoo li {width:auto !important;}
+.wufoo li {width:auto !important; float:left;}
 form li.leftThird, form li.middleThird, form li.leftFourth, form li.leftFifth {
 	width:auto !important;
 }
