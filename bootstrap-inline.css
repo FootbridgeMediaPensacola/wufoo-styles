@@ -402,6 +402,9 @@ select.form-control:focus::-ms-value {
 }
 form li.rightThird { float:left; }
 .wufoo li {width:auto !important;}
+form li.leftThird, form li.middleThird, form li.leftFourth, form li.leftFifth {
+	width:auto;
+}
 
 
 @media (min-width: 576px) {
