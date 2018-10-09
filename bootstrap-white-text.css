@@ -42,9 +42,7 @@ form input, form select, form textarea {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
 }
 
-*{
-	color:white;
-}
+
 
 .wufoo .info div{
 	color:#c0c0c0 !important;
