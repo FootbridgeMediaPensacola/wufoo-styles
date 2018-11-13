@@ -3,17 +3,23 @@
 	box-sizing:border-box !important;
 }
 
-.field.text, .field.textarea{
+.field.text, .field.textarea, .field.select{
 	padding:.8rem .8rem;
 	border-radius:.1875rem;
-	border:1px solid rgba(0,0,0,0.2);
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom:1px solid rgba(0,0,0,0.2);
 	color:#404040;
 	font-size:1rem;
 }
 
-.field.text:focus, .field.textarea:focus{
-	box-shadow:0 0 0px 3px rgba(241, 7, 7, 0.5);
-	border:1px solid rgb(241, 7, 7) !important;
+.field.text:focus, .field.textarea:focus, .field.select:focus{
+	/*box-shadow:0 0 0px 3px rgba(241, 7, 7, 0.5);*/
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom:1px solid rgb(241, 7, 7) !important;
 	outline:none !important;
 	transition:box-shadow 200ms;
 }
