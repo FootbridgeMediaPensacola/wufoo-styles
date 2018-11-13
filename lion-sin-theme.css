@@ -13,6 +13,11 @@
 	font-size:1rem;
 }
 
+.field.textarea{
+	/* Default height for textarea elements */
+	height:48px;
+}
+
 .field.text:focus, .field.textarea:focus, .field.select:focus{
 	/*box-shadow:0 0 0px 3px rgba(241, 7, 7, 0.5);*/
 	border-top:none;
