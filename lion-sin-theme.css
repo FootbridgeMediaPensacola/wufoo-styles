@@ -1,12 +1,13 @@
 .field.text, .field.textarea{
 	padding:0.5rem;
-	border-radius:3px;
+	border-radius:2px;
 	border:1px solid rgba(0,0,0,0.2);
 }
 
 .field:focus{
 	box-shadow:0 0 0px 3px rgba(241, 7, 7, 0.5);
-	border:1px solid rgb(241, 7, 7);
+	border:1px solid rgb(241, 7, 7) !important;
+	outline:none !important;
 	transition:box-shadow 200ms;
 }
 
