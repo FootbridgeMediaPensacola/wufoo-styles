@@ -15,7 +15,7 @@ li{
 	border-left:none;
 	border-bottom:1px solid rgba(0,0,0,0.65);
 	color:#404040;
-	font-size:1rem;
+	font-size:0.93rem !important;
 }
 
 .field.textarea{
@@ -56,7 +56,7 @@ span.symbol{
 
 .wufoo label.desc{
 	/* The headings above the input fields */
-	font-size:1rem !important;
+	font-size:1.08rem !important;
 	color:#444444 !important;
 }
 
