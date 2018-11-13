@@ -4,8 +4,7 @@
 }
 
 .field.text, .field.textarea, .field.select{
-	padding:.8rem .8rem;
-	border-radius:.1875rem;
+	padding:.4rem .25rem;
 	border-top:none;
 	border-right:none;
 	border-left:none;
