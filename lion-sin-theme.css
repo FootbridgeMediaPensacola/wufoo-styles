@@ -1,3 +1,8 @@
+*{
+	/* Globally set border-box as the default sizing algorithm */
+	box-sizing:border-box !important;
+}
+
 .field.text, .field.textarea{
 	padding:.8rem .8rem;
 	border-radius:.1875rem;
