@@ -3,6 +3,11 @@
 	box-sizing:border-box !important;
 }
 
+li{
+	/* Customize the sections container the headings, labels, and inputs */
+	padding-bottom:1rem !important;
+}
+
 .wufoo .field.text, .wufoo .field.textarea, .wufoo .field.select{
 	padding:.4rem .25rem;
 	border-top:none;
