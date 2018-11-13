@@ -46,3 +46,8 @@ input.text, input.search, textarea.textarea{
 span.symbol{
 	line-height:215%;
 }
+
+.wufoo label.desc{
+	font-size:1rem !important;
+	color:#444444 !important;
+}
