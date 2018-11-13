@@ -4,7 +4,7 @@
 	border:1px solid rgba(0,0,0,0.2);
 }
 
-.field:focus{
+.field.text:focus, .field.textarea:focus{
 	box-shadow:0 0 0px 3px rgba(241, 7, 7, 0.5);
 	border:1px solid rgb(241, 7, 7) !important;
 	outline:none !important;
@@ -14,4 +14,9 @@
 .wufoo li.focused{
 	/* Remove the bg color from the container of input fields during focusing */
 	background-color:unset !important;
+}
+
+input.text, input.search, textarea.textarea{
+	/* Remove the default image placed on these elements */
+	background-image:none;
 }
