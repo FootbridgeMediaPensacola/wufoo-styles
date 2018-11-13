@@ -36,3 +36,8 @@ input.text, input.search, textarea.textarea{
 	/* Remove the default image placed on these elements */
 	background-image:none;
 }
+
+input + label{
+	/* Labels under inputs */
+	display:none !important;
+}
