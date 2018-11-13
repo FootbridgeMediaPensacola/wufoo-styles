@@ -3,7 +3,7 @@
 	box-sizing:border-box !important;
 }
 
-.field.text, .field.textarea, .field.select{
+.wufoo .field.text, .wufoo .field.textarea, .wufoo .field.select{
 	padding:.4rem .25rem;
 	border-top:none;
 	border-right:none;
