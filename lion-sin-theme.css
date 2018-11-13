@@ -78,5 +78,5 @@ span.symbol{
 }
 
 .wufoo input.btTxt:focus{
-	box-shadow:0 0 0 0.2rem rgba(0, 62, 102, 0.5)
+	box-shadow:0 0 0 0.2rem rgba(102, 62, 0, 0.5)
 }
