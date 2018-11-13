@@ -44,7 +44,7 @@ input.text, input.search, textarea.textarea{
 	background-image:none;
 }
 
-.field.text + label, .field.textarea + label{
+.field.text + label, .field.textarea + label, field.select + label{
 	/* Labels under inputs */
 	display:none !important;
 }
