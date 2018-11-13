@@ -42,3 +42,7 @@ input.text, input.search, textarea.textarea{
 	/* Labels under inputs */
 	display:none !important;
 }
+
+span.symbol{
+	line-height:215%;
+}
