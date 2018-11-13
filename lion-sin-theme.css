@@ -8,14 +8,15 @@
 	border-top:none;
 	border-right:none;
 	border-left:none;
-	border-bottom:1px solid rgba(0,0,0,0.2);
+	border-bottom:1px solid rgba(0,0,0,0.65);
 	color:#404040;
 	font-size:1rem;
 }
 
 .field.textarea{
 	/* Default height for textarea elements */
-	height:48px;
+	height:40px;
+	min-height:40px;
 }
 
 .field.text:focus, .field.textarea:focus, .field.select:focus{
