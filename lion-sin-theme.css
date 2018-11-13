@@ -20,6 +20,7 @@
 }
 
 .field.text:focus, .field.textarea:focus, .field.select:focus{
+	/* Customize look of focused inputs */
 	border-top:none;
 	border-right:none;
 	border-left:none;
@@ -44,15 +45,18 @@ input.text, input.search, textarea.textarea{
 }
 
 span.symbol{
+	/* Dashes or forward slashes between phones numbers, dates */
 	line-height:215%;
 }
 
 .wufoo label.desc{
+	/* The headings above the input fields */
 	font-size:1rem !important;
 	color:#444444 !important;
 }
 
 .wufoo input.btTxt{
+	/* Customize submit button */
 	font-weight:400;
 	text-align:center;
 	vertical-align:middle;
