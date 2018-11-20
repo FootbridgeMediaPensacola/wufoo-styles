@@ -46,7 +46,7 @@ li{
 
 input.text, input.search, textarea.textarea{
 	/* Remove the default image placed on these elements */
-	background-image:none;
+	background-image:none; 
 	background-color:hsla(0, 0%, 97%, 1);
 }
 
