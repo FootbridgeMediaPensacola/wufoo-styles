@@ -8,6 +8,11 @@ li{
 	padding-bottom:1rem !important;
 }
 
+#container, html.embed{
+	/* Remove the default white background of the form */
+	background-color:none !important;
+}
+
 .wufoo .field.text, .wufoo .field.textarea, .wufoo .field.select{
 	padding:.4rem .25rem;
 	border-top:none;
