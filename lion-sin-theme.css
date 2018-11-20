@@ -10,7 +10,7 @@ li{
 
 #container, html.embed{
 	/* Remove the default white background of the form */
-	background-color:none !important;
+	background-color:unset !important;
 }
 
 .wufoo .field.text, .wufoo .field.textarea, .wufoo .field.select{
