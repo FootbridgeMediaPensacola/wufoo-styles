@@ -79,7 +79,7 @@ span.symbol{
 	transition:color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 	width:200px;
 	background-color:rgb(220, 54, 54);
-	color:white;
+	color:white; 
 }
 
 .wufoo input.btTxt:focus{
