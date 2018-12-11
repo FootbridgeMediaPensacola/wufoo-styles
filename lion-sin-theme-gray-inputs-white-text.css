@@ -16,7 +16,7 @@ li{
 .wufoo .field.text, .wufoo .field.textarea, .wufoo .field.select{
 	padding:.4rem .25rem;
 	border-top:none;
-	border-right:none;
+	border-right:none; 
 	border-left:none;
 	border-bottom:1px solid rgba(0,0,0,0.65);
 	color:#404040;
