@@ -67,6 +67,10 @@ form li > label{
 	color:white!important;
 }
 
+.wufoo label.desc, .wufoo legend.desc, .likert caption{
+	color: white !important;
+}
+
 header h2, header div{
 	color:white!important;
 }
