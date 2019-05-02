@@ -58,6 +58,9 @@ form li.buttons img {
 }
 
 @media screen and (max-width: 768px) {
+	.wufoo-form-container {
+		min-height:220px !important;
+	}
 	form ul { 
 		height:auto !important; 
 		padding-top:1% !important;
