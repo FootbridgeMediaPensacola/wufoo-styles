@@ -3,18 +3,32 @@
 form li {
     display: inline-block;
 }
+
 label.desc {
     display: none !important;
 }
 
-#wufoo-mwhj13q0xtp3m9 {
-    border: 1px solid yellow !important;
+.wufoo-form-container {
+    height: 35px !important;
 }
-#wufoo-mwhj13q0xtp3m9 > .wufoo-form-container {
-    border: 1px solid blue !important;
-    background-color: rgba(255, 255, 255, 0.15);
-    font-size: 0.9rem;
-    color: red !important;
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select,
+.wufoo li .wufoo-dropdown span {
+    border-radius: 0.5rem !important;
+    padding: 0.25rem 0.5rem !important;
 }
+
+.wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus,
+.wufoo select.select:focus, .wufoo li:focus, .wufoo-dropdown span:focus {
+    border: 1px solid #FF0000 !important;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25) !important;
+}
+
+input.large, select.large {
+    border-radius: 0.5rem !important;
+    padding: 0.25rem 0.5rem !important;
+}
+
+
 
 /* ******************************************************************************************** */
