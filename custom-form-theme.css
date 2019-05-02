@@ -33,7 +33,7 @@ input.large, select.large {
     padding: 0.25rem 0.5rem !important;
 }
 
-.noI form li, .altInstruct form li {
+.noI form li {
     width: 17% !important;
 }
 
