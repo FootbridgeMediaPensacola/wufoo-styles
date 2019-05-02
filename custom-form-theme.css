@@ -58,13 +58,13 @@ form li.buttons img {
 }
 
 @media screen and (max-width: 768px) {
-	form ul {height:auto !important; padding-top:1%;}
+	form ul {height:auto !important; padding-top:1% !important;}
     form li {
         display: block !important;
 		
     }
 	.noI form li {
-		width:80%;
+		width:80% !important;
 	}
 }
 
