@@ -1,11 +1,17 @@
 /* CUSTOM WUFOO FORM EDITING ****************************************************************** */
 
 form ul {
-    padding-top: 17px;
+    padding-top: 3.5% !important;
 }
 
 form li {
     display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    form li {
+        display: block !important;
+    }
 }
 
 label.desc {
@@ -44,7 +50,6 @@ form li {
 form li.buttons {
     height: 0.5rem;
     text-align: center;
-    margin-left: 1.0rem;
     vertical-align: middle !important;
     padding: 0px 0px 28px 6px !important;
 }
