@@ -71,6 +71,7 @@ form li.buttons img {
     }
 	.noI form li {
 		width:80% !important;
+		margin:0 auto !important;
 	}
 }
 
