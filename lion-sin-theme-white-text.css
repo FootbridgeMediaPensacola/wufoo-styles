@@ -99,3 +99,6 @@ span.symbol{
 .wufoo label.desc, .wufoo legend.desc{
 	color: white !important;
 }
+.wufoo form li.section div {
+	color: white !important;
+}
