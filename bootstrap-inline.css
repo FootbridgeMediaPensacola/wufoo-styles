@@ -11,6 +11,11 @@
     box-sizing: border-box
 }
 
+input {
+	border-radius:10px;
+	padding:2%;
+}
+
 .wufoo label.desc, .wufoo legend.desc{
 	color:#fff !important;
 }
