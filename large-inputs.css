@@ -1,0 +1,55 @@
+*{
+	box-sizing:border-box !important;
+}
+
+/** Hide input titles */
+label.desc{
+	
+}
+
+/** Remove white background from form */
+#container, html.embed{
+	background-color:transparent;
+}
+
+/** Remove pink error background when errors happen */
+form li.error{
+	background-color:unset !important;
+}
+
+input:not(.submit), textarea{
+	padding:0.61rem !important;
+	font-size:1.1rem !important;
+	border:none !important;
+	border-radius:0.35rem;
+	transition:border 150ms, box-shadow 150ms;
+	/* box-shadow: 0 0 0 0 transparent; */
+	box-shadow: 0 0 0.12rem 0.1rem hsl(0, 0%, 78%)
+}
+
+/** Remove the default outline from input elements and replace with a box shadow */
+input:not(.submit):focus, textarea:focus{
+	outline:none !important;
+	box-shadow: 0 0 0.15rem 0.2rem rgba(0, 123, 255, 0.7);
+}
+
+/** Remove the focused background colors of containing divs around inputs */
+.wufoo li.focused, form li.focused{
+	background-color:unset !important;
+}
+
+/** Submit button is an input element */
+input.submit{
+	display:block !important;
+	width:100% !important;
+	background-color:#007bff;
+	border-color:#007bff;
+	border-style:solid !important;
+	line-height:1.5;
+	font-size:1rem !important;
+	font-weight:400;
+	user-select:none;
+	border-radius:0.25rem;
+	padding:.375rem .75rem;
+	color:white !important;
+}
