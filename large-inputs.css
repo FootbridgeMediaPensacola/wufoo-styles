@@ -42,8 +42,8 @@ input:not(.submit):focus, textarea:focus{
 input.submit{
 	display:block !important;
 	width:100% !important;
-	background-color:#007bff;
-	border-color:#007bff;
+	background-color:#c71422;
+	border-color:#c71422;
 	border-style:solid !important;
 	line-height:1.5;
 	font-size:1rem !important;
