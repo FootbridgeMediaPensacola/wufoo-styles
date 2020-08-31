@@ -30,9 +30,6 @@ html.embed{
 #header.info {
 	display:none;
 }
-.wufoo input.btTxt {
-	background-color: rgb(70, 103, 28);
-}
 form input, form select, form textarea {
     display: block;
     width: 100%;
@@ -46,7 +43,9 @@ form input, form select, form textarea {
     border-radius: .25rem !important;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
 }
-
+.wufoo input.btTxt {
+	background-color: rgb(70, 103, 28) !important;
+}
 
 
 .wufoo .info div{
