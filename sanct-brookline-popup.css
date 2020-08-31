@@ -30,8 +30,8 @@ html.embed{
 #header.info {
 	display:none;
 }
-.btTxt .submit {
-	background: rgb(70, 103, 28);
+.wufoo input.btTxt {
+	background-color: rgb(70, 103, 28);
 }
 form input, form select, form textarea {
     display: block;
