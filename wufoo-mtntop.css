@@ -68,7 +68,9 @@ form li > label{
 	font-size:1.6rem !important;
 	color:white!important;
 }
-
+.wufoo label {
+	font-size:1.5rem;
+}
 .wufoo label.desc, .wufoo legend.desc, .likert caption{
 	color: white !important;
 }
